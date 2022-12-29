@@ -1,1 +1,5 @@
-<p>params works!</p>
+<section class="params">
+    <h1>{{string}}</h1>
+    <input class="input input-red" type="text" [(ngModel)]="toParams">
+    <a class="btn btn-red" routerLink="/params/{{toParams}}">go</a>
+</section>

@@ -29,14 +29,14 @@
     padding: 0;
 }
 
-a {
-    text-decoration: none;
-    color: var(--black);
-}
-
 body {
     font-family: var(--font-1);
     background-color: var(--white);
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
 }
 
 /* _-_- ALL -_-_ */
@@ -55,6 +55,7 @@ body {
     font-family: 'Barlow', sans-serif;
     font-size: 16px;
     font-weight: 600;
+    text-transform: uppercase;
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -90,6 +91,27 @@ body {
 
 .cursor-pointer {
     cursor: pointer;
+}
+
+.input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input-red {
+    border: 2px solid var(--red);
+}
+
+.input-green {
+    border: 2px solid var(--green);
+}
+
+.input-blue {
+    border: 2px solid var(--blue);
 }
 
 .theme-light {

@@ -9,6 +9,7 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'cat', component: CatComponent},
   {path: 'params', component: ParamsComponent},
+  {path: 'params/:text', component: ParamsComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: '**', component: Page404Component}
 ]
