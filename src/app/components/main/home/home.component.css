@@ -1,0 +1,28 @@
+.home {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 64px;
+    text-transform: uppercase;
+
+    animation-name: fade-in;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-100vh);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

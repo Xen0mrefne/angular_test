@@ -1,0 +1,47 @@
+.navbar {
+    height: 100px;
+    padding: 0 3%;
+    background-color: var(--color-1);
+    box-shadow: 0px -3px 15px 3px var(--black);
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    height: 100%;
+    background-color: var(--color-2);
+}
+
+.nav-links {
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+
+.nav-links > .link {
+    margin: 0px 5px;
+}
+
+.nav-links > .link a {
+    color: var(--white);
+    height: 100%;
+    text-transform: uppercase;
+    padding: 0px 20px;
+
+    display: flex;
+    align-items: center;
+
+    transition: background-color 300ms, color 300ms;
+}
+
+.nav-links > .link a:hover {
+    background-color: var(--white);
+    color: var(--color-1);
+}
+
+.nav-links > .link .active {
+    background-color: var(--color-2);
+}

@@ -1,0 +1,12 @@
+<section class="cat">
+    <div class="user-input">
+        <p>Cat image generator</p>
+        <input placeholder="type anything" type="text" [(ngModel)]="say">
+        <button (click)="onSay(say)" class="btn btn-blue">Generate Image</button>
+    </div>
+    <div class="image">
+        <div class="container">
+            <img src="{{ catSrc }}" alt="" />
+        </div>
+    </div>
+</section>
